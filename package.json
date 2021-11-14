@@ -1,0 +1,54 @@
+{
+  "name": "rj-react-comment-section",
+  "description": "This is an open source component for react.js library officially created by Rahul D and Juned Ali Khan.",
+  "author": "Rahul and Juned",
+  "keywords": ["react", "components", "ui"],
+  "version": "0.1.0",
+  "private": false,
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [ "dist", "README.md" ],
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/rahuld600/rj-react-comment-section.git"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.16.0",
+    "@emotion/react": "^11.6.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/material": "^5.1.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
