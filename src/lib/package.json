@@ -1,0 +1,38 @@
+{
+  "name": "rj-react-comment-section",
+  "version": "1.0.0",
+  "description": "This is an open source react comment section component made by Rahul D and Juned Ali Khan.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahuld600/rj-react-comment-section.git"
+  },
+  "keywords": [
+    "react",
+    "rahuld",
+    "react",
+    "react-comment-section",
+    "react-comment-component",
+    "comment-section",
+    "react",
+    "juned",
+    "react"
+  ],
+  "author": "Rahul D and Juned Ali Khan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rahuld600/rj-react-comment-section/issues"
+  },
+  "homepage": "https://github.com/rahuld600/rj-react-comment-section#readme",
+  "peerDependencies": {
+    "@emotion/react": "^11.6.0",
+    "@emotion/styled": "^11.6.0",
+    "@mui/material": "^5.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3"
+  }
+}
